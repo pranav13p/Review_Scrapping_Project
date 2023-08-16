@@ -5473,3 +5473,14 @@ INFO:root:log my final result [{'Product': 'iphone14', 'Name': 'Avi Nash', 'Rati
 INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 13:19:16] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 13:19:16] "[33mGET /style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 13:19:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 14:54:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 14:54:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 14:54:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'redmi10', 'Name': 'Ravi Kumar', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Nice camera'}, {'Product': 'redmi10', 'Name': 'Manali  chakrabarti ', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Camera is very good ,good performance, overall at this price point one of the best.'}, {'Product': 'redmi10', 'Name': 'Chitra Dubey', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Excellent mobile 🥰'}, {'Product': 'redmi10', 'Name': 'Chaithra  K g', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Good mobile camera 👍 I like mobile ,low price'}, {'Product': 'redmi10', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Very good👍'}, {'Product': 'redmi10', 'Name': 'Deepti Sharma', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just outstanding in the affordable price.✌🏻😻'}, {'Product': 'redmi10', 'Name': 'Rakesh Yadav', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Fantastic 👌👌'}, {'Product': 'redmi10', 'Name': 'kripasindhu das', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Original products and good services'}, {'Product': 'redmi10', 'Name': 'Rupam Dhara', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Good phone in this price range, battery backup good, camera ok ok, and performance very very good 🔥 I am mi love And very fast delivery Flipkart, thanks'}, {'Product': 'redmi10', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'Good quality but display size very long'}, {'Product': 'redmi10', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good quality but display size very long'}]
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 14:54:20] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 14:54:20] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 14:54:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
