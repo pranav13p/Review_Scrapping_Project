@@ -56,7 +56,6 @@ def index():
                 except:
                     rating = 'No Rating'
                     logging.info("rating")
-
                 try:
                     #commentHead.encode(encoding='utf-8')
                     commentHead = commentbox.div.div.div.p.text
@@ -76,9 +75,9 @@ def index():
                 reviews.append(mydict)
             logging.info("log my final result {}".format(reviews))
 
-            client = pymongo.MongoClient(" mongodb+srv://pranav123:mongodb@13p@cluster0.9ikuthc.mongodb.net/?retryWrites=true&w=majority")
-            db = client['review_scrap']
-            review_col = db['review_scrap_data']
+            client = pymongo.mongo_client("mongodb+srv://pranav123:mongodb1111@cluster0.9ikuthc.mongodb.net/?retryWrites=true&w=majority")
+            db = client['reviews_scrapping']
+            review_col = db['scrap_data']
             review_col.insert_many(reviews)
 
             return render_template('result.html', reviews=reviews[0:(len(reviews)-1)])
